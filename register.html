@@ -711,7 +711,7 @@
                                 top: -23px;"
                                 rel="border-radius: 0px; border-color: rgb(67, 159, 224); border-style: none; border-width: 1px; width: 274px; height: 52.06px;">
                         </a>
-                        <a class="registerBtn blinkRegister" href="/register">Register</a>
+                        <a class="registerBtn blinkRegister" href="/register.html">Register</a>
                     </div><!-- /End Navbar Header -->
                    
                 </div><!-- /End Container -->
@@ -1475,7 +1475,7 @@
                 //     return;
                 // }
                 // else{
-                    axios.post('https://clcecast.in/api/public/user/signup-with-otp', {
+                    axios.post('https://portal.clcecast.in/api/public/user/signup-with-otp', {
                         mobile: this.formData.mobileNumber
                     })
                     .then(response=>{
@@ -1505,7 +1505,7 @@
 
                 }
 
-                // axios.post('https://clcecast.in/api/public/user/verify-otp', {
+                // axios.post('https://portal.clcecast.in/api/public/user/verify-otp', {
                 //     otp: this.mobileOtp,
                 //     id: this.otpId})
                 // .then(response=>{
@@ -1547,7 +1547,7 @@
                     let formData1 = new FormData();
                     formData1.append('ekFile', this.personalImgObj);
                     let self = this;
-                    axios.post('https://clcecast.in/api/public/file/upload',
+                    axios.post('https://portal.clcecast.in/api/public3/file/upload',
                         formData1
                     ).then(function (res) {
                         console.log(res);
@@ -1596,7 +1596,7 @@
                     address: {address: this.formData.address.village+' '+ this.formData.address.district, landmark: this.formData.address.post, city: this.formData.address.city, state: this.formData.address.state, postalCode: this.formData.address.pincode, country: "India"},
                     customParams: this.formData.school,
                 };
-                axios.post('https://clcecast.in/api/public3/user/register-student-with-otp', {
+                axios.post('https://portal.clcecast.in/api/public3/user/register-student-with-otp', {
                     student:stdData,
                     password: this.formData.mobileNumber,
                     id:this.otpId,
