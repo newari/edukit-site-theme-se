@@ -32,6 +32,10 @@
 
     <!-- RESPONSIVE FIXES -->
     <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     
     <style type="text/css">
         a.btn-signup:hover{cursor: pointer;background: green}
@@ -460,7 +464,7 @@ background-color: transparent !important
                                 <li><a class="smooth-scroll" href="https://clcecast.in/#instructions">Instructions</a></li>
                                 <li><a class="smooth-scroll" href="https://clcecast.in/#about">Important Dates</a></li>
                                 <li><a class="smooth-scroll" href="https://clcecast.in/#contact7-1">Contact Us</a></li>
-                                <!-- <li><a class="smooth-scroll" href="#tandc">Terms & Conditions</a></li> -->
+                                <li><a class="smooth-scroll" href="#tandc">Terms & Conditions</a></li>
                                 <!-- <li><a class="smooth-scroll" href="#faqs">FAQs</a></li> -->
                             </ul>
                         <!-- /End Menu Links -->
@@ -471,33 +475,19 @@ background-color: transparent !important
         
         <!-- HERO SECTION -->
         <section id="hero1-1" class="hero bg-img hmbnr" style="outline-offset: -3px;height:auto">
-            <!-- <div class="overlay"></div> -->
             <div class="hero_slider_container">
-                <div class="owl-carousel owl-theme owl-loaded owl-drag">
-                    
-                    
-                    
-                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2880px, 0px, 0px); transition: all 0.4s ease 0s; width: 10080px;"><div class="owl-item cloned" style="width: 1440px;"><div class="item">
-                        <img src="./assets/e-CAST_2(1)-1642268024458.jpg" style="width:100%">
-                    </div></div><div class="owl-item cloned" style="width: 1440px;"><div class="item">
-                        <img src="./assets/e-CAST_3(1)-1642268042303.jpg" style="width:100%">
-                    </div></div><div class="owl-item active" style="width: 1440px;"><div class="item">
-                        <img src="./assets/e-CAST_1(1)-1642267962605.jpg" style="width:100%">
-                    </div></div><div class="owl-item" style="width: 1440px;"><div class="item">
-                        <img src="./assets/e-CAST_2(1)-1642268024458.jpg" style="width:100%">
-                    </div></div><div class="owl-item" style="width: 1440px;"><div class="item">
-                        <img src="./assets/e-CAST_3(1)-1642268042303.jpg" style="width:100%">
-                    </div></div><div class="owl-item cloned" style="width: 1440px;"><div class="item">
-                        <img src="./assets/e-CAST_1(1)-1642267962605.jpg" style="width:100%">
-                    </div></div><div class="owl-item cloned" style="width: 1440px;"><div class="item">
-                        <img src="./assets/e-CAST_2(1)-1642268024458.jpg" style="width:100%">
-                    </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
-                <!-- <div class="row">
-                    <div class="col-md-12" style="padding:0px">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="https://i.filecdn.in/763clcecast/e-CAST_1(1)-1642267962605.jpg" style="width:100%">
                     </div>
-                </div> -->
-                <!-- /End Row -->
-            </div><!-- /End Container -->
+                    <div class="item">
+                        <img src="https://i.filecdn.in/763clcecast/e-CAST_2(1)-1642268024458.jpg" style="width:100%">
+                    </div>
+                    <div class="item">
+                        <img src="https://i.filecdn.in/763clcecast/e-CAST_3(1)-1642268042303.jpg" style="width:100%">
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- SCOPE AND ELIGIBILTITY AND INFORMATION -->
         <section id="about" class="p-y">
@@ -568,7 +558,6 @@ background-color: transparent !important
         <!-- FEATURES SECTION -->
         <section class="p-y bg-edit bg-grey">
             <div class="container">
-                <!-- Section Header -->
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="section-header text-center wow fadeIn">
@@ -578,12 +567,11 @@ background-color: transparent !important
                         </div>
                     </div>
                 </div>
-                <!-- Features Row -->
                 <div class="row features-block wow fadeIn">
                     <div class="row">
                         <div class="col-md-8 pricing-3pf text-left p-a-0">
                             <div class="col-sm-6 img-left">
-                                <fieldset class="info bg-light">
+                                <fieldset style="margin: 9px;" class="info bg-light">
                                     <img src="./assets/certificate.png" alt="">
                                     <h5 class="m-t f-w-900">Up to 100% Discount</h5>
                                     <p class="text-justify">As per the score in CAST paper every appearent will be awarded with a aprticular scholarship in CLC tution Fee
@@ -591,7 +579,7 @@ background-color: transparent !important
                                 </fieldset>
                             </div>
                             <div class="col-sm-6 img-left">
-                                <fieldset class="info bg-dark">
+                                <fieldset style="margin: 9px;" class="info bg-dark">
                                     <img src="./assets/file.png" alt="">
                                     <h5 class="m-t f-w-900">Insight into Exam Pattern</h5>
                                     <p class="text-justify">The questions asked in e-CAST match the orientation and level of top engineering
@@ -600,15 +588,15 @@ background-color: transparent !important
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-sm-6 img-left">
-                                <fieldset class="info bg-dark">
+                                <fieldset style="margin: 9px;" class="info bg-dark">
                                     <img src="./assets/student.png" alt="">
                                     <h5 class="m-t f-w-900">Feel of Online-based Testing Mode</h5>
                                     <p class="text-justify">Train yourself in deffrient online based testing mode. Develop hand-eye coordination and other
-                                        required skills that go into JEE &amp; NEET exam.</p>
+                                        required skills that go into JEE & NEET exam.</p>
                                 </fieldset>
                             </div>
                             <div class="col-sm-6 img-left">
-                                <fieldset class="info bg-light">
+                                <fieldset style="margin: 9px;" class="info bg-light">
                                     <img src="./assets/podium.png" alt="">
                                     <h5 class="m-t f-w-900">Reality Check</h5>
                                     <p class="text-justify">The first step to success is the reality check i.e. knowing your strengths and
@@ -618,114 +606,91 @@ background-color: transparent !important
                         </div>
                         <div class="col-md-4 feature-video">
                             <div class="embed-responsive embed-responsive-16by9 video">
-                                <iframe class="embed-responsive-item" src="./assets/rhHlpID4naQ.html"></iframe>
+                                <iframe class="embed-responsive-item"
+                                    src="./assets/rhHlpID4naQ.html"></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div><!-- /End Container -->
+            </div>
         </section>
         <!-- ALLOCATION OF SCHOLARSHIP -->
         <section id="scholarship" class="p-y">
             <!-- Section Header -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-12">
                         <div class="section-header text-center wow fadeIn">
-                            <h2 class="m-b-md">Scholarship Criteria for e-CAST 2022</h2>
+                            <h2 class="m-b-md">SCHOLARSHIP ON THE BASIS OF e-CAST-2022 SCORE</h2>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container p-a-0">
                 <div class="row m-a-0 spotlight-block img-left">
-                    <div class="col-md-6 wow fadeIn">
+                    <div class="col-md-12 wow fadeIn">
                         <div class="table-responsive">
+                            
                             <table class="table table-striped table-bordered">
                                 <thead class="bg-dark">
                                     <tr>
-                                        <th class="text-edit">Category</th>
-                                        <th class="text-edit text-center">e-CAST All India Rank</th>
-                                        <th class="text-edit text-center">Scholarship % on Tuition Fee</th>
+                                        <th class="text-edit">SN</th>
+                                        <th class="text-edit text-center">MARKS IN e CAST-2022</th>
+                                        <th class="text-edit text-center">SCHOLARSHIP IN TUITION FEE</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="text-edit">A</td>
-                                        <td class="text-edit text-center">Above 90%</td>
+                                        <td class="text-edit">1</td>
+                                        <td class="text-edit text-center">96-100%</td>
                                         <td class="text-edit text-center">100%</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-edit">B</td>
-                                        <td class="text-edit text-center">81% to 90%</td>
+                                        <td class="text-edit">2</td>
+                                        <td class="text-edit text-center">91-95%</td>
                                         <td class="text-edit text-center">90%</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-edit">C</td>
-                                        <td class="text-edit text-center">71% to 80%</td>
+                                        <td class="text-edit">3</td>
+                                        <td class="text-edit text-center">86-90%</td>
                                         <td class="text-edit text-center">80%</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-edit">D</td>
-                                        <td class="text-edit text-center">61% to 70%</td>
+                                        <td class="text-edit">4</td>
+                                        <td class="text-edit text-center">81-85%</td>
                                         <td class="text-edit text-center">70%</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-edit">E</td>
-                                        <td class="text-edit text-center">51% to 60%</td>
+                                        <td class="text-edit">5</td>
+                                        <td class="text-edit text-center">71-80%</td>
                                         <td class="text-edit text-center">60%</td>
                                     </tr>
-                                    
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="col-md-6 wow fadeIn">
-                        <div class="table-responsive">
-                            <table class="table table-striped table-bordered">
-                                <thead class="bg-dark">
                                     <tr>
-                                        <th class="text-edit">Category</th>
-                                        <th class="text-edit text-center">e-CAST All India Rank</th>
-                                        <th class="text-edit text-center">Scholarship % on Tuition Fee</th>
+                                        <td class="text-edit">6</td>
+                                        <td class="text-edit text-center">61-70%</td>
+                                        <td class="text-edit text-center">55%</td>
                                     </tr>
-                                </thead>
-                                <tbody>
                                     <tr>
-                                        <td class="text-edit">F</td>
-                                        <td class="text-edit text-center">41% to 50%</td>
+                                        <td class="text-edit">7</td>
+                                        <td class="text-edit text-center">51-60%</td>
                                         <td class="text-edit text-center">50%</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-edit">G</td>
-                                        <td class="text-edit text-center">31% to 40%</td>
+                                        <td class="text-edit">8</td>
+                                        <td class="text-edit text-center">41-50%</td>
                                         <td class="text-edit text-center">40%</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-edit">H</td>
-                                        <td class="text-edit text-center">21% to 30%</td>
-                                        <td class="text-edit text-center">30%</td>
+                                        <td class="text-edit">9</td>
+                                        <td class="text-edit text-center">31-40%</td>
+                                        <td class="text-edit text-center">25%</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-edit">I</td>
-                                        <td class="text-edit text-center">11% to 20%</td>
-                                        <td class="text-edit text-center">20%</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-edit">J</td>
-                                        <td class="text-edit text-center">Below 10%</td>
+                                        <td class="text-edit">10</td>
+                                        <td class="text-edit text-center">BELOW 30%</td>
                                         <td class="text-edit text-center">10%</td>
                                     </tr>
-                                    <!-- <tr>
-                                        <td class="text-edit">K</td>
-                                        <td class="text-edit text-center">Rank 551 to 700</td>
-                                        <td class="text-edit text-center">15%</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-edit">L</td>
-                                        <td class="text-edit text-center">Rank 701 to 1000</td>
-                                        <td class="text-edit text-center">10%</td>
-                                    </tr> -->
+                                    
                                 </tbody>
                             </table>
                         </div>
@@ -740,37 +705,37 @@ background-color: transparent !important
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="section-header text-center wow fadeIn">
-                            <h2 class="m-b-md">Exam Pattern &amp; Syllabus</h2>
+                            <h2 class="m-b-md">Exam Pattern & Syllabus</h2>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container p-a-0">
                 <div class="row features-panels">
-                    <div class="col-md-7  wow fadeIn">
+                    <div style="margin: 0 9px;" class="col-md-7  wow fadeIn">
                         <h4>Exam Pattern</h4>
                         <div class="icon-left">
-                            <i class="fa fa-angle-right angle-dark-blue"></i>
+                            <i class="fa fa-angle-right angle-dark-blue" ></i>
                             <p class="m-t"> <strong>Mode : </strong>Online</p>
                         </div>
                         <div class="icon-left">
-                            <i class="fa fa-angle-right angle-dark-blue"></i>
+                            <i class="fa fa-angle-right angle-dark-blue" ></i>
                             <p class="m-t"> <strong>Time Duration : </strong>2 Hr.</p>
                         </div>
                         <div class="icon-left">
-                            <i class="fa fa-angle-right angle-dark-blue"></i>
+                            <i class="fa fa-angle-right angle-dark-blue" ></i>
                             <p class="m-t"> <strong>Total Marks : </strong>400</p>
                         </div>
                         <div class="icon-left">
-                            <i class="fa fa-angle-right angle-dark-blue"></i>
+                            <i class="fa fa-angle-right angle-dark-blue" ></i>
                             <p class="m-t"> <strong>Total Question : </strong>100 (4 Marks for each carrect answer)</p>
                         </div>
                         <div class="icon-left">
-                            <i class="fa fa-angle-right angle-dark-blue"></i>
+                            <i class="fa fa-angle-right angle-dark-blue" ></i>
                             <p class="m-t"> <strong>Negative Marking : </strong>-1 marks will awarded for each wrong answer</p>
                         </div>
                         <div class="icon-left">
-                            <i class="fa fa-angle-right angle-dark-blue"></i>
+                            <i class="fa fa-angle-right angle-dark-blue" ></i>
                             <p class="m-t"> Test can be written from anywhere using system (Desktop, Laptop) and mobile.</p>
                         </div>
                         <!-- <div class="icon-left">
@@ -819,7 +784,7 @@ background-color: transparent !important
                             <table class="table table-striped table-bordered">
                                 <thead>
                                     <tr class="bg-dark">
-                                        <th colspan="2" class="text-center">Class 6th</th>
+                                        <th colspan="2" class="text-center">For Class 6th to 7th Moving</th>
                                     </tr>
                                     <tr class="bg-light">
                                         <th class="text-edit">Mathematics</th>
@@ -885,7 +850,7 @@ background-color: transparent !important
                             <table class="table table-striped table-bordered">
                                 <thead>
                                     <tr class="bg-dark">
-                                        <th colspan="2" class="text-center">Class 7th</th>
+                                        <th colspan="2" class="text-center">For Class 7th to 8th Moving</th>
                                     </tr>
                                     <tr class="bg-light">
                                         <th class="text-edit">Mathematics</th>
@@ -954,7 +919,7 @@ background-color: transparent !important
                             <table class="table table-striped table-bordered">
                                 <thead>
                                     <tr class="bg-dark">
-                                        <th colspan="2" class="text-center">Class 8th</th>
+                                        <th colspan="2" class="text-center">For Class 8th to 9th Moving</th>
                                     </tr>
                                     <tr class="bg-light">
                                         <th class="text-edit">Mathematics</th>
@@ -1023,7 +988,7 @@ background-color: transparent !important
                             <table class="table table-striped table-bordered">
                                 <thead>
                                     <tr class="bg-dark">
-                                        <th colspan="2" class="text-center">Class 9th</th>
+                                        <th colspan="2" class="text-center">For Class 9th to 10th Moving</th>
                                     </tr>
                                     <tr class="bg-light">
                                         <th class="text-edit">Mathematics</th>
@@ -1082,7 +1047,7 @@ background-color: transparent !important
                             <table class="table table-striped table-bordered">
                                 <thead>
                                     <tr class="bg-dark">
-                                        <th colspan="2" class="text-center">Class 10th</th>
+                                        <th colspan="2" class="text-center">For Class 10th to 11th Moving</th>
                                     </tr>
                                     <tr class="bg-light">
                                         <th class="text-edit">Mathematics</th>
@@ -1140,7 +1105,7 @@ background-color: transparent !important
                             <table class="table table-striped table-bordered">
                                 <thead>
                                     <tr class="bg-dark">
-                                        <th colspan="2" class="text-center">Class 11th</th>
+                                        <th colspan="2" class="text-center">For Class 11th to 12th Moving</th>
                                     </tr>
                                     <tr class="bg-light">
                                         <th class="text-edit">PHYSICS</th>
@@ -1161,7 +1126,7 @@ background-color: transparent !important
                                         <td class="text-edit">Classifications of Elements and Periodicity in Properties</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-edit">Work, Energy &amp; Power</td>
+                                        <td class="text-edit">Work, Energy & Power</td>
                                         <td class="text-edit">Chemical Bonding, State of Matter</td>
                                     </tr>
                                     <tr>
@@ -1197,7 +1162,7 @@ background-color: transparent !important
                             <table class="table table-striped table-bordered">
                                 <thead>
                                     <tr class="bg-dark">
-                                        <th colspan="2" class="text-center">Class 12th</th>
+                                        <th colspan="2" class="text-center">For Class 12th to Target Moving</th>
                                     </tr>
                                     <tr class="bg-light">
                                         <th class="text-edit">PHYSICS</th>
@@ -1206,11 +1171,11 @@ background-color: transparent !important
                                 </thead>
                                 <tbody style="height:280px">
                                     <tr>
-                                        <td class="text-edit">Electric Charges &amp; Fields, Gauss Law</td>
+                                        <td class="text-edit">Electric Charges & Fields, Gauss Law</td>
                                         <td class="text-edit">Solid State</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-edit">Electrostatic  Potential &amp; Capacitance</td>
+                                        <td class="text-edit">Electrostatic  Potential & Capacitance</td>
                                         <td class="text-edit">Solution</td>
                                     </tr>
                                     <tr>
@@ -1257,7 +1222,7 @@ background-color: transparent !important
                         <h4>Instructions</h4>
                         <div class="icon-left">
                             <i class="fa fa-angle-right angle-dark-blue"></i>
-                            <p class="m-t">The e-CAST exam will start on 30th Jan, 2020 at 10:00 AM sharp. Students will
+                            <p class="m-t">The e-CAST exam will start on 30th Jan, 2022 at 10:00 AM sharp. Students will
                                 not be allowed to take the e-CAST Exam after 12 PM.</p>
                         </div>
                         <div class="icon-left">
@@ -1320,6 +1285,23 @@ background-color: transparent !important
                 </div>
             </div><!-- /End Container  -->
         </section>
+        <section id="tandc" class="p-y bg-grey">
+            <div class="container">
+                <div class="row features-panels wow fadeIn">
+                    <div class="col-md-12">
+                        <h4>Terms & Conditions</h4>
+                        <div class="icon-left">
+                            <i class="fa fa-angle-right angle-dark-blue" ></i>
+                            <p class="m-t">Only new student can apply.</p>
+                        </div>
+                        <div class="icon-left">
+                            <i class="fa fa-angle-right angle-dark-blue" ></i>
+                            <p class="m-t">Already registered students or CLCians of session 2021-2022 are not applicable for e-cast</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         
         <section id="contact7-1" class="p-t-md bg-edit" style="background: #383e42; opacity:.9;">
             <div class="container">
@@ -1333,24 +1315,24 @@ background-color: transparent !important
                 <div class="row">
                     <div class="col-md-12 c4 contact-divider text-white p-b-md text-center">
                         <div class="col-md-3">
-                            <i class="icon-map-marker"></i>
+                            <i class="fa fa-address-book" aria-hidden="true"></i>
                             <h5 class="f-w-900">Address</h5>
                             <p class="f-w-700">Piprali Road<br> Sikar, Rajasthan</p>
                         </div>
                         <div class="col-md-3">
-                            <i class="icon-phone"></i>
+                            <i class="fa fa-phone-square" aria-hidden="true"></i>
                             <h5 class="f-w-900">Call Us</h5>
                             <p class="f-w-700">Mobile: <a href="https://clcecast.in/09414036555">+91 94140 36555</a><br>
-                                Hot Line: <a href="tel:0952126555">+91 95212 6555</a></p>
+                                Help Line: <a href="tel:0951236555">+91 95212 36555</a></p>
                         </div>
                         <div class="col-md-3">
-                            <i class="icon-mail"></i>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
                             <h5 class="f-w-900">Email</h5>
                             <p class="f-w-700"><a href="mailto:info@clcpartivar.in" class="inverse">info@clcpartivar.in</a>
                             </p>
                         </div>
                         <div class="col-md-3">
-                            <i class="icon-clock"></i>
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
                             <h5 class="f-w-900">Working Hours</h5>
                             <p class="f-w-700">Mon to Sat - 9:30 AM to 8:00 PM</p>
                         </div>
@@ -1375,9 +1357,30 @@ background-color: transparent !important
                 </div><!-- /End Row -->
             </div><!-- /End Container -->
         </footer>
-        <a href="https://clcecast.in/#" class="top is-visible fade-out" style="background-color:#383e42">Top</a>
+        <a href="https://clcecast.in/#" class="top is-visible fade-out" style="background-color:#383e42">Top
+        </a>
     </div><!-- /End Main Container -->
     <!-- Back to Top Button -->
     <a href="https://clcecast.in/#" class="top">Top</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            autoplay:true,
+            margin: 40,
+            smartSpeed: 400,
+            autoplayHoverPause:true,
+            margin:0,
+            loop:true,
+            merge:true,
+            dots: true,
+            nav: true,
+            items: 1,
+            }
+        )
+    </script>
 </body>
+
 </html>

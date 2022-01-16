@@ -225,7 +225,7 @@
 
     .navbar-nav {
         float: none!important;
-        margin: 7.5px 0;
+        margin: 7.5px 24px;
     }
 
     .navbar-nav>li {

@@ -954,7 +954,7 @@ a.btn-app {
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: #439FE0 url("../images/top-arrow.svg") no-repeat center 50%;
+    background: #439FE0 url("https://clcecast.in/763clcecast/websites/EDUKIT/scholarship-exam-theme-1/assets/images/top-arrow.svg") no-repeat center 50%;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -4690,7 +4690,7 @@ button.middle-menu .icon-bar {
 @media screen and (max-width: 450px) {
     .registerBtn{
         position: absolute !important;
-        top: 92px;
+        top: 83px;
         left: 27px;
         z-index: 100000;
         background: white !important;

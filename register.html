@@ -1,0 +1,1622 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- TITLE OF SITE -->
+    <title>eCAST - CLC Admission cum Scholarship Test </title>
+    <meta name="author" content="CLC Sikar">
+
+    <!-- FAVICON  -->
+    <!-- Place your favicon.ico in the images directory -->
+    <link rel="shortcut icon" href="https://clcecast.in/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://clcecast.in/favicon.ico" type="image/x-icon">
+
+    <!-- =========================
+    STYLESHEETS 
+    ============================== -->
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+
+    <!-- FONT ICONS -->
+    <link rel="stylesheet" href="./assets/iconfont.css">
+    <link rel="stylesheet" href="./assets/font-awesome.min.css">
+    
+    <!-- GOOGLE FONTS -->
+    <link href="./assets/css" rel="stylesheet" type="text/css">
+
+    <!-- PLUGINS STYLESHEET -->
+
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- RESPONSIVE FIXES -->
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>   
+    <style type="text/css">
+        .mtre-facts.funfacts .counter-left {
+            width: 100%;
+            text-align: center;
+        }
+
+        .p-t {
+            padding-top: 20px !important;
+        }
+
+        .mtre-facts.funfacts .counter-left .counter-facts {
+            display: inline;
+        }
+
+        .mtre-facts.funfacts .counter-facts {
+            font-size: 45px;
+            line-height: 50px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .mtre-facts .text {
+            text-align: center;
+        }
+
+        .bclr {
+            color: #efde00
+        }
+
+        .bclr small {
+            color: black;
+        }
+
+        .clrblk {
+            color: black;
+        }
+
+        .vertical-center-abs,
+        .vertical-center-rel {
+            top: 42%;
+        }
+
+        .bg-img.hero.hmbnr {
+            /*background: url('<%=templateUri%>/assets/images/MTRE-web-page-background.jpg') !important;*/
+            background-size: cover !important;
+            /*background-color: #bcce9a !important;*/
+        }
+
+        .youtube {
+            /*margin-top: 70px;*/
+            min-height: 300px;
+        }
+
+        /*.hero, .hero.height-800{height: 600px;}*/
+
+        @media only screen and (max-width : 768px) {
+
+            .hero,
+            .hero.height-800 {
+                height: 450px;
+            }
+
+            .bg-img.hero.hmbnr {
+                /*background: url('<%=templateUri%>/assets/images/mtre-banner-min.jpg') !important;*/
+                /*background-color: #bcce9a !important;*/
+                background-origin: content-box !important;
+
+                background-size: contain !important;
+                background-repeat: no-repeat !important;
+                /*height: 700px !important;*/
+            }
+
+            .heroTxt {
+                display: none;
+            }
+
+            .vertical-center-abs,
+            .vertical-center-rel {
+                top: 42% !important;
+            }
+
+            .time-txt {
+                font-size: 12px;
+                line-height: 20px !important;
+                position: relative;
+                /* top: -20px; */
+                display: block;
+                top: 5px;
+            }
+
+            .youtube {
+                margin-top: 50px;
+                min-height: 200px;
+            }
+
+            .navbar-nav>li>a {
+                padding: 5px 10px !important;
+            }
+        }
+
+        @media only screen and (max-width: 425px) {
+
+            .hero,
+            .hero.height-800 {
+                height: 600px;
+            }
+
+            .vertical-center-abs,
+            .vertical-center-rel {
+                top: 42% !important;
+            }
+        }
+
+        @media only screen and (min-width: 2400px) {
+            .p-t-md.bclr {
+                color: #fff
+            }
+        }
+        
+        .spotlight-block.img-left>.spotlight-text:after,
+        .spotlight-block.img-right>figure:after {
+            background: #eff1f4;
+        }
+
+        .pricing-table li:first-child {
+            border-radius: 5px 5px 0px 0px;
+        }
+
+        .bg-light {
+            /*background-color: #0089c81a;*/
+            background-color: #afe7ff;
+        }
+
+        .bg-dark {
+            /*background-color: #07163312;*/
+            background-color: #bfd1dc;
+        }
+
+        .bg-grey {
+            background-color: #fbfbfb;
+        }
+        .angle-dark-blue{
+            color: #0000af;
+        }
+
+        body {
+            color: #3c3c3c;
+        }
+
+        .features-tab .tab-title.current {
+            color: #fff;
+            background-color: #b1d454;
+        }
+
+        .sticky-container {
+            padding: 0px;
+            margin: 0px;
+            position: fixed;
+            right: -130px;
+            top: 145px;
+            width: 210px;
+            z-index: 1100;
+        }
+
+        .sticky li {
+            list-style-type: none;
+            background-color: #fff;
+            color: #efefef;
+            height: 43px;
+            padding: 0px;
+            margin: 0px 0px 1px 0px;
+            -webkit-transition: all 0.25s ease-in-out;
+            -moz-transition: all 0.25s ease-in-out;
+            -o-transition: all 0.25s ease-in-out;
+            transition: all 0.25s ease-in-out;
+            cursor: pointer;
+        }
+
+        .sticky li:first-child {
+            border-radius: 5px 0px 0px 0px;
+        }
+
+        .sticky li:last-child {
+            border-radius: 0px 0px 0px 5px;
+        }
+
+        .sticky li img {
+            float: left;
+            margin: 5px 4px;
+            margin-right: 5px;
+        }
+
+        .navbar-nav>li>a.btn-login:hover {
+            background: #07163312;
+        }
+
+        .navbar-nav>li>a.btn-nav.bg-light.btn-login {
+            color: #3c3c3c;
+            border-right: none;
+            font-weight: 600;
+        }
+
+        .features-panels .icon-left i {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .schedule .panel-heading {
+            background-color: transparent;
+            border-color: #ddd;
+            /*background: #0089c81a;*/
+            background: #afe7ff
+        }
+
+        .schedule .panel-heading:hover,
+        .schedule .panel-heading:active {
+            /*background: #07163312;*/
+            background-color: #bfd1dc
+        }
+
+        .schedule .panel-title a {
+            color: #3c3c3c;
+        }
+
+        .path i {
+            font-weight: 700;
+            margin-right: 10px;
+        }
+
+        .fa.pull-left {
+            margin-right: .3em;
+            margin-bottom: 2em;
+        }
+        textarea{
+            resize: vertical;
+            width: 100%;
+            height: 145px;
+            margin-bottom: 15px;
+            background: #e8ebed;
+            border: solid 2px #e8ebed;
+            border-radius: 5px;
+        }
+        .mySyllabus .table-responsive{ 
+            overflow-x: auto;
+            height: 700px !important;
+            border: 1px solid;
+            margin-bottom: 21px;
+                }
+        .pageHeading{
+            text-align: center;
+            margin: 10px;
+            font-size: 36px;
+        }
+        .formSection{
+            padding: 20px 50px;
+            border: 1px solid lightgray;
+            box-shadow: 4px 4px 10px 3px #183d6f;
+            border-bottom-right-radius: 23px;
+            border-bottom-left-radius: 23px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .sectionHeading{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            border-top: 7px double;
+            margin-top: 47px;
+            height: 54px;
+            text-shadow: 1px 1px 1px lightgrey;
+        }
+        .sectionHeading span{
+            position: relative;
+            top: -27px;
+            background: #183f73;
+            border: 1px solid;
+            width: 400px;
+            color: white;
+            font-size: 35px;
+            text-align: center;
+            padding: 10px 20px;
+            margin: 0px;
+            border-radius: 7px;
+        }
+        .form-control {
+            margin-bottom: 10px ;
+            -webkit-box-shadow: 0 8px 6px -6px black;
+            -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 5px 6px -6px #7187a6;
+            background: #e8ebed4a;
+        }
+        label{
+            padding-bottom: 3px;
+        }
+        .tg-wrapper form{
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+        }
+        .formBtnSection{
+            text-align: center;
+            height: 92px;
+            background: #ffffff;
+            position: relative;
+            border-top: 3px double #183f73;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            bottom: -1px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 25px;
+        }
+        .formBtn{
+            position: relative;
+            padding: 10px 30px;
+            background: #000000;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-size: 23px;
+            line-height: 23px;
+            margin: 10px auto;
+            top: 14px;
+        }
+        .stage-container{
+            margin-top: 25px; 
+        }
+        .stage-header{
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        .stage-header i {
+            color: white;
+            font-size: 25px;
+            z-index: 2;
+            margin-left: 2px;
+        }
+        .stage-content{
+            display: flex;
+            justify-content: center;
+        }
+        .stage-content h3{
+            font-size: 15px;
+            padding-top: 10px;
+            text-align: center;
+        }
+        .stage:nth-child(1):after, .stage:nth-child(2):after, .stage:nth-child(3):after {
+                position: absolute;
+                background-color: #183f73;
+                top: 50%;
+                right: 0px;
+                margin-top: -28px;
+                width: 50%;
+                height: 5px;
+                border-top: 1px solid #183f73;
+                border-bottom: 1px solid #183f73;
+                content: '';
+                z-index: 1;
+            }
+            .stage:nth-child(2):before, .stage:nth-child(3):before, .stage:nth-child(4):before {
+                position: absolute;
+                background-color: #183f73;
+                top: 50%;
+                left: 0px;
+                margin-top: -28px;
+                width: 50%;
+                height: 5px;
+                border-top: 1px solid #183f73;
+                border-bottom: 1px solid #183f73;
+                content: '';
+                z-index: 1;
+            }
+        @media screen and (min-width:500px) and (max-width:700px) {
+            .stage-content h3 {
+                line-height: 16px;
+                font-size: 11px;
+                margin-top: 13px;
+            }
+            .stage:nth-child(1):after, .stage:nth-child(2):after, .stage:nth-child(3):after {
+                margin-top: -26px;
+
+            }
+            .stage:nth-child(2):before, .stage:nth-child(3):before, .stage:nth-child(4):before {
+                margin-top: -26px;
+
+            }
+
+            
+        }
+        @media screen and (max-width:500px){
+            .stage-content h3 {
+                line-height: 16px;
+                font-size: 11px;
+                margin-top: 13px;
+            }
+            .stage:nth-child(1):after, .stage:nth-child(2):after, .stage:nth-child(3):after {
+                margin-top: -34px;
+
+            }
+            .stage:nth-child(2):before, .stage:nth-child(3):before, .stage:nth-child(4):before {
+                margin-top: -34px;
+
+            }
+
+            
+        }
+
+        
+        .stage-header span{
+            width: 54px;
+            height: 54px;
+            position: absolute;
+            background: #183f73;
+            border-radius: 50%;
+            top: 50%;
+            border: 0;
+            transform: translateY(-50%);
+            z-index: 2;
+        }
+        @media screen and (max-width: 576px) {
+            .formSection{
+                padding: 10px;
+            }
+            .sectionHeading span{
+                font-size: 25px;
+            }
+         
+        }
+        .errorDisplay{
+            background: #ff00001a;
+            padding: 10px;
+            border-radius: 9px;
+            margin-top: 20px;
+        }
+        .singleErrorMessage{
+            padding-bottom: 5px;
+        }
+        .singleErrorMessage i{
+            padding-right: 5px;
+        }
+        .formBtn[disabled]{
+            opacity: 0.5;
+        }
+
+        .displaySectionDetails{
+            display: flex;
+            font-size: 16px;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid #183f73;
+            border-bottom: 1px solid white;
+        }
+        .detailsKey{
+            background: #183f73;
+            color: white;
+            padding: 10px;
+            width: 260px;
+        }
+        .detailsValue{
+            padding: 10px;
+            width: 100%;
+        }
+        .displaySection{
+            border: 1px solid #183f73;
+            margin-bottom: 10px;
+            box-shadow: 1px 1px 1px #183f73;
+        }
+        .displaySectionHeader{
+            font-size: 25px;
+            line-height: 46px;
+            margin: 0;
+            /* border: 1px solid; */
+            padding: 0px 10px;
+        }
+        .sentOtpClass, .resendOtpClass{
+            position: relative;
+            color: white;
+            background: orange;
+            border: none;
+            padding: 5px 10px;
+            border: 2px solid white;
+            margin: 0px 4px;
+            outline: 2px solid orange;
+        }
+        .sentOtpClass{
+            width: 150px;
+        }
+        .resendOtpClass[disabled]{
+            opacity: 0.5;
+        }
+        .submitOtpClass{
+            color: white;
+            background: #1fa22a;
+            border: none;
+            padding: 5px 10px;
+            border: 2px solid white;
+            margin: 0px 4px;
+            outline: 2px solid #1fa22a;
+        }
+        .spanTimer{
+            position: absolute;
+            background: red;
+            font-size: 12px;
+            border-radius: 50%;
+            height: 24px;
+            width: 24px;
+            line-height: 24px;
+            top: -16px;
+            right: -14px;
+        }
+        .changeMobile{
+            position: absolute;
+            border: 2px solid white;
+            top: 0px;
+            right: 0px;
+            padding: 5px 10px;
+            background: rgb(145, 75, 75);
+            color: white;
+            margin-right: 17px;
+            margin-top: -2px;
+            outline: 2px solid rgb(145, 75, 75);
+            cursor: pointer;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+        -moz-appearance: textfield;
+        }
+        .successMsgClass{
+            font-size: 25px;
+            background: #b3dcb3;
+            color: darkgreen;
+            padding: 16px;
+            border-radius: 5px;
+        }
+        .inputOtpField{
+            padding: 6px;
+            margin-top: 10px;
+            width: 200px;
+        }
+        .submitFormBtns{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 13px auto;
+        }
+        .successMsgClass span{
+            display: inline-block;
+            /* padding: 5px; */
+            margin: 4px 0px;
+            font-size: 18px;
+        }
+        .successMsgClass span i{
+            margin-right: 5px;
+        }
+        .successMsgClass p{
+            font-size: 24px;
+            text-transform: capitalize;
+            font-weight: bold;
+            margin-top: 12px;
+        }
+        [v-cloak]{
+            display: none;
+        }
+        .imageCancel{
+            position: relative;
+            width: fit-content;
+            width: 250px;
+        }
+        .imageCancel img{
+            width: 250px;
+            height: auto;
+        }
+
+
+        .imageCancel span{
+            position: absolute;
+            background: #183f73;
+            color: white;
+            padding: 5px;
+            top: 0px;
+            right: 0px;
+            cursor: pointer;
+        }
+        .profileHeader{
+            width: 200px;
+        }
+        .aadharMsg{
+            font-size: 15px;
+            font-weight: bold;
+            margin: 7px 19px;
+            display: inline-block;
+            color: red;
+        }
+        .lds-facebook {
+            display: inline-block;
+            position: absolute;
+            bottom: -61px;
+            width: 80px;
+            height: 80px;
+            left: 8px;
+            }
+            .lds-facebook div {
+            display: inline-block;
+            position: absolute;
+            left: 8px;
+            width: 16px;
+            background: rgb(145, 71, 71);
+            animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+            }
+            .lds-facebook div:nth-child(1) {
+            left: 8px;
+            animation-delay: -0.24s;
+            }
+            .lds-facebook div:nth-child(2) {
+            left: 32px;
+            animation-delay: -0.12s;
+            }
+            .lds-facebook div:nth-child(3) {
+            left: 56px;
+            animation-delay: 0;
+            }
+            @keyframes lds-facebook {
+            0% {
+                top: 8px;
+                height: 64px;
+            }
+            50%, 100% {
+                top: 24px;
+                height: 32px;
+            }
+            }
+
+
+
+
+
+
+		
+	</style>
+</head>
+<body>
+	<div id="app" v-cloak>
+        <header id="nav2-3">
+            <nav class="navbar" id="main-navbar">
+                <div class="container">
+                    <!-- Menu Button for Mobile Devices -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#navbar-collapse" style="margin-right: 0px;margin-top: 0px">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar" style="background-color: #fff;"></span>
+                            <span class="icon-bar" style="background-color: #fff;"></span>
+                            <span class="icon-bar" style="background-color: #fff;"></span>
+                        </button>
+                        <a href="/" class="navbar-brand smooth-scroll"
+                            style="position:relative">
+                            <img src="./assets/CLC_Logo_Full_JPG(1)-1642141613274.png" alt="CLC logo" class="mobile-logo"
+                                style="    border-radius: 0px;
+                                border-color: rgb(67, 159, 224);
+                                border-style: none;
+                                border-width: 1px;
+                                height: 90px;
+                                position: absolute;
+                                top: -23px;"
+                                rel="border-radius: 0px; border-color: rgb(67, 159, 224); border-style: none; border-width: 1px; width: 274px; height: 52.06px;">
+                        </a>
+                        <a class="registerBtn blinkRegister" href="/register">Register</a>
+                    </div><!-- /End Navbar Header -->
+                   
+                </div><!-- /End Container -->
+            </nav><!-- /End Navbar -->
+        </header>
+        <!-- MIDDLE MENU -->
+        <section style="background: #313c8c">
+            <nav id="main-navbar">
+                <div class="container" style="padding-left:0px">
+                    <!-- Menu Button for Mobile Devices -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle middle-menu" data-toggle="collapse"
+                            data-target="#middle-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div><!-- /End Navbar Header -->
+                    <div class="collapse navbar-collapse p-a-0" id="middle-menu">
+                        <!-- Menu Links -->
+                            <ul class="nav navbar-nav navbar-center">
+                                <li><a class="smooth-scroll" href="https://clcecast.in/#about">About</a></li>
+                                <!-- <li><a class="smooth-scroll" href="#about">Scope</a></li> -->
+                                <li><a class="smooth-scroll" href="https://clcecast.in/#about">Eligibilty</a></li>
+                                <li><a class="smooth-scroll" target="_blank" href="https://i.filecdn.in/763clcecast/e-CAST-1642323714981.jpg">Scholarship Criteria</a></li>
+                                <li><a class="smooth-scroll" href="https://clcecast.in/#patterAndSyllabus">Test Pattern</a></li>
+                                <li><a class="smooth-scroll" target="_blank" href="https://i.filecdn.in/763clcecast/e-CAST_SyllAbus-1642259143290.jpg">Syllabus</a></li>
+                                <!-- <li><a style="padding: 5px 10px !important;"  class="smooth-scroll blink" href="student/auth/login">Mock Test</a></li> -->
+                                <!-- <li><a class="smooth-scroll" href="https://clcecast.in/#howToRegister">How To Register</a></li> -->
+                                <li><a class="smooth-scroll" href="https://clcecast.in/#instructions">Instructions</a></li>
+                                <li><a class="smooth-scroll" href="https://clcecast.in/#about">Important Dates</a></li>
+                                <li><a class="smooth-scroll" href="https://clcecast.in/#contact7-1">Contact Us</a></li>
+                                <li><a class="smooth-scroll" href="https://clcecast.in/#tandc">Terms & Conditions</a></li>
+                                <!-- <li><a class="smooth-scroll" href="https://clcecast.in/#faqs">FAQs</a></li> -->
+                            </ul>
+                        <!-- /End Menu Links -->
+                    </div><!-- /End Navbar Collapse -->
+                </div><!-- /End Container -->
+            </nav><!-- /End Navbar -->
+        </section>
+		<!--************************************
+				Wrapper Start
+		*************************************-->
+		<div id="tg-wrapper" class="tg-wrapper">
+            <h1 class="pageHeading">CLC Admission cum Scholarship Test </h1>
+            <div class="container">
+                
+                <form @submit="registerForm" action="/something" method="post">
+                    <div class="formSection">
+                        <div class="row stage-container">
+
+                            <div class="stage col-md-3 col-sm-3 col-xs-3">
+                                <div class="stage-header">
+
+                                    <span :style="[activeStep==1?{'background-color' : 'lightgray', 'border' : '1px solid #183f73'}:{'background-color' : '#183f73', 'border' : 'none '}]"></span>
+                                    <i :style="[activeStep==1?{'color' : '#183f73'}:{'color' : 'white'}]" class="fa fa-user" aria-hidden="true"></i>
+                                </div>
+        
+                                <div class="stage-content">
+                                    <h3 class="stage-title">Personal Details</h3>
+                                </div>
+                            </div>
+                            
+                            <div class="stage col-md-3 col-sm-3 col-xs-3">
+                                <div class="stage-header">
+                                    <span :style="[activeStep<=2? activeStep ==2 ? {'background-color' : 'lightgrey', 'border' : '1px solid #183f73'}: {'background-color' : 'white', 'border' : '1px solid #183f73'}:{'background-color' : '#183f73', 'border' : 'none '}]"></span>
+                                    <i :style="[activeStep<=2?{'color' : '#183f73'}:{'color' : 'white'}]" class="fa fa-check" aria-hidden="true"></i>
+                                </div>
+                                <div class="stage-content">
+                                    <h3 class="stage-title">Contact Details</h3>
+                                </div>
+                            </div>
+                            
+                            <div class="stage col-md-3 col-sm-3 col-xs-3">
+                                <div class="stage-header">
+                                    <span :style="[activeStep<=3? activeStep ==3 ? {'background-color' : 'lightgrey', 'border' : '1px solid #183f73'}: {'background-color' : 'white', 'border' : '1px solid #183f73'}:{'background-color' : '#183f73', 'border' : 'none '}]"></span>
+                                    <i :style="[activeStep<=3 ?{'color' : '#183f73'}:{'color' : 'white'}]" class="fa fa-clipboard" aria-hidden="true"></i>
+                                </div>
+                                <div class="stage-content">
+                                    <h3 class="stage-title">Other Details</h3>
+                                </div>
+                            </div><!--/ .stage-->
+                            <div class="stage col-md-3 col-sm-3 col-xs-3">
+                                <div class="stage-header">
+                                    <span :style="[activeStep<=4? activeStep ==4 ? {'background-color' : 'lightgrey', 'border' : '1px solid #183f73'}: {'background-color' : 'white', 'border' : '1px solid #183f73'}:{'background-color' : '#183f73', 'border' : 'none '}]"></span>
+                                    <i :style="[activeStep<=4?{'color' : '#183f73'}:{'color' : 'white'}]" class="fa fa-paper-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="stage-content">
+                                    <h3 class="stage-title">Verify & Submit</h3>
+                                </div>
+                            </div><!--/ .stage-->
+        
+                        </div>
+                        
+                        <div class="form-input">
+                            <div class="row mb-3 mt-3" :style="[activeStep==1?{'display': 'block'}:{'display': 'none'}]" >
+                                <div class="col-lg-12 col-md-12 mb-3">
+                                    <div class="sectionHeading">
+                                        <span>Class Details</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 mb-3">
+                                    <label>Class<span class="text-danger">*</span></label>
+                                    <span class="text-danger" style="font-size: 12px;">{{ errors.first('Class') }}</span>
+                                    <select name="Class" class="form-control" v-model="formData.class">
+                                        <option value="none" selected>Select Class</option>
+                                        <option value="class6">For Class 6 to 7 Moving</option>
+                                        <option value="class7">For Class 7 to 8 Moving</option>
+                                        <option value="class8">For Class 8 to 9 Moving</option>
+                                        <option value="class9">For Class 9 to 10 Moving</option>
+                                        <option value="class10">For Class 10 to 11 Moving</option>
+                                        <option value="class11">For Class 11 to 12 Moving</option>
+                                        <option value="class12">For Class 12 to Target Moving</option>
+                                      </select>
+                                    <!-- <input class="form-control" name="Address State" type="text" placeholder="State" v-model="formData.address.state" v-validate="'required'"> -->
+                                </div>
+                                <div class="col-lg-12 col-md-12 mb-3">
+                                    <div class="sectionHeading">
+                                        <span>Personal Details</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 mb-3">
+                                    <label>Student Name<span class="text-danger">*</span></label>
+                                    <span class="text-danger" style="font-size: 12px;">{{ errors.first('Student Name') }}</span>
+                                    <input class="form-control" name="Student Name" type="text" placeholder="Full Name" v-model="formData.name" v-validate="'required'">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>Father’s Name<span class="text-danger">*</span></label>
+                                    <span class="text-danger" style="font-size: 12px;">{{ errors.first("Father's Name") }}</span>
+                                    <input class="form-control" name="Father's Name" type="text" placeholder="Fathers Name" v-model="formData.fathersName" v-validate="'required'">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>Aadhar Number<span class="text-danger">*</span></label>
+                                    <span class="text-danger" style="font-size: 12px;">{{  errors.first('Aadhar Number')}}</span>
+                                    <input class="form-control" name="Aadhar Number" type="number" placeholder="Aadhar Number" v-model="formData.aadharNumber" v-validate="'required|digits:12'">
+                                </div>
+                                <span class="aadharMsg">** Note: Original Aadhar card is mandatory to bring at the time of admission.</span>
+
+                            </div>
+                            <div class="row mb-3 mt-3" :style="[activeStep==2?{'display': 'block'}:{'display': 'none'}]">
+                                <div class="col-lg-12 col-md-12 mb-3">
+                                    <div class="sectionHeading">
+                                        <span>Contact Details</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>Mobile No: <span class="text-danger">*</span></label>
+                                    <span class="text-danger" style="font-size: 12px;">{{  errors.first('Mobile Number')}}</span>
+                                    <input  :disabled="verify.validateBtn" class="form-control" name="Mobile Number" type="number" placeholder="Mobile Number" v-model="formData.mobileNumber" v-validate="'required|digits:10'">  
+                                </div>
+                                
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>Whatsapp No:</label>
+                                    <span class="text-danger" style="font-size: 12px;">{{  errors.first('Whatsapp Number')}}</span>
+                                    <input class="form-control" name="Whatsapp Number" type="text" placeholder="Whatsapp Number" v-model="formData.whatsappNumber" v-validate="'digits:10'">
+                                </div>
+                                
+                            </div>
+                            <div class="row mb-3 mt-3" :style="[activeStep==3?{'display': 'block'}:{'display': 'none'}]">
+                                <div class="col-lg-12 col-md-12 mb-3">
+                                    <div class="sectionHeading">
+                                        <span>Permanent Address</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>Village/Ward No: <span class="text-danger">*</span></label>
+                                    <span class="text-danger" style="font-size: 12px;">{{ errors.first('Address Village') }}</span>
+                                    <input class="form-control" name="Address Village" type="text" placeholder="Village" v-model="formData.address.village" v-validate="'required'">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>Post/Colony: <span class="text-danger">*</span></label>
+                                    <span class="text-danger" style="font-size: 12px;">{{ errors.first('Address Post//Colony') }}</span>
+                                    <input class="form-control" name='Address Post//Colony' type="text" placeholder="Post/Colony" v-model="formData.address.post" v-validate="'required'">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>Tehsil/City: <span class="text-danger">*</span></label>
+                                    <span  class="text-danger" style="font-size: 12px;">{{ errors.first('Address Tehsil/City') }}</span>
+                                    <input class="form-control" name="Address Tehsil/City" type="text" placeholder="Tehsil/City" v-model="formData.address.city" v-validate="'required'">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>District<span class="text-danger">*</span></label>
+                                    <span class="text-danger" style="font-size: 12px;">{{ errors.first('Address District') }}</span>
+                                    <input class="form-control" name="Address District" type="text" placeholder="District" v-model="formData.address.district" v-validate="'required'">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>State<span class="text-danger">*</span></label>
+                                    <span class="text-danger" style="font-size: 12px;">{{ errors.first('Address State') }}</span>
+                                    <select name="Address State" class="form-control" v-model="formData.address.state">
+                                        <option value="none" selected>Select State</option>
+                                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                        <option value="Assam">Assam</option>
+                                        <option value="Bihar">Bihar</option>
+                                        <option value="Chandigarh">Chandigarh</option>
+                                        <option value="Chhattisgarh">Chhattisgarh</option>
+                                        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                        <option value="Daman and Diu">Daman and Diu</option>
+                                        <option value="Delhi">Delhi</option>
+                                        <option value="Lakshadweep">Lakshadweep</option>
+                                        <option value="Puducherry">Puducherry</option>
+                                        <option value="Goa">Goa</option>
+                                        <option value="Gujarat">Gujarat</option>
+                                        <option value="Haryana">Haryana</option>
+                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                        <option value="Jharkhand">Jharkhand</option>
+                                        <option value="Karnataka">Karnataka</option>
+                                        <option value="Kerala">Kerala</option>
+                                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                        <option value="Maharashtra">Maharashtra</option>
+                                        <option value="Manipur">Manipur</option>
+                                        <option value="Meghalaya">Meghalaya</option>
+                                        <option value="Mizoram">Mizoram</option>
+                                        <option value="Nagaland">Nagaland</option>
+                                        <option value="Odisha">Odisha</option>
+                                        <option value="Punjab">Punjab</option>
+                                        <option value="Rajasthan">Rajasthan</option>
+                                        <option value="Sikkim">Sikkim</option>
+                                        <option value="Tamil Nadu">Tamil Nadu</option>
+                                        <option value="Telangana">Telangana</option>
+                                        <option value="Tripura">Tripura</option>
+                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                        <option value="Uttarakhand">Uttarakhand</option>
+                                        <option value="West Bengal">West Bengal</option>
+                                      </select>
+                                    <!-- <input class="form-control" name="Address State" type="text" placeholder="State" v-model="formData.address.state" v-validate="'required'"> -->
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>Pin Code: <span class="text-danger">*</span></label>
+                                    <span  class="text-danger" style="font-size: 12px;">{{ errors.first('Address Pin Code') }}</span>
+                                    <input class="form-control" name="Address Pin Code" type="number" placeholder="Pin Code" v-model="formData.address.pincode" v-validate="'required|digits:6'">
+                                </div>
+                                <div class="col-lg-12 col-md-12 mb-3">
+                                    <div class="sectionHeading">
+                                        <span>School Details</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>School Name<span class="text-danger">*</span></label>
+                                    <span  class="text-danger" style="font-size: 12px;">{{ errors.first('School Name') }}</span>
+                                    <input class="form-control" name="School Name" type="text" placeholder="School Name" v-model="formData.school.name" v-validate="'required'">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>Tehsil/City <span class="text-danger">*</span></label>
+                                    <span  class="text-danger" style="font-size: 12px;">{{ errors.first('School Tehsil/City') }}</span>
+                                    <input class="form-control" name="School Tehsil/City" type="text" placeholder="Tehsil/City" v-model="formData.school.city" v-validate="'required'">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>District<span class="text-danger">*</span></label>
+                                    <span  class="text-danger" style="font-size: 12px;">{{ errors.first('School District') }}</span>
+                                    <input class="form-control" name="School District" type="text" placeholder="District" v-model="formData.school.district" v-validate="'required'">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>Director/Principal Name</label>
+                                    <!-- <span  class="text-danger" style="font-size: 12px;">{{ errors.first('Director/Principal Name') }}</span> -->
+                                    <input class="form-control" name="Director/Principal Name" type="text" placeholder="Director/Principal Name" v-model="formData.school.principal" >
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label>Mobile No.</label>
+                                    <span  class="text-danger" style="font-size: 12px;">{{ errors.first('School Mobile Number') }}</span>
+                                    <input class="form-control" name="School Mobile Number" type="number" placeholder="Mobile Number" v-model="formData.school.mobile" v-validate="'digits:10'">
+                                </div>
+                                <div class="col-lg-12 col-md-12 mb-3">
+                                    <div class="sectionHeading">
+                                        <span>Upload Details</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+	                                    <label>Student's Profile Pic <span class="text-danger">*</span></label>
+                                        <span  class="text-danger" style="font-size: 12px;">{{ errors.first('Profile Image') }}</span>
+                                        <div class="imageCancel" v-if="formData.personalImg">
+                                            <img :src="formData.personalImg" :alt="formData.personalImg">
+                                            <span  @click="cancelImage()"><i class="fa fa-times" aria-hidden="true"></i></span>
+
+                                        </div>
+                                        <div v-if="!formData.personalImg&&uploading==true" class="lds-facebook">
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+	                                    <input v-if="!formData.personalImg&&uploading==false" name="Profile Image" class="form-control" type="file" v-validate="'required'" accept=".jpeg,.jpg,.png" ref="personalImg" @change="uploadStdPersonalImage()">  
+	                            </div>
+                            </div>
+                            <div class="row mb-3 mt-3" :style="[activeStep==4?{'display': 'block'}:{'display': 'none'}]">
+                                <div class="displaySection">
+                                    <h1 class="displaySectionHeader">Personal Details</h1>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Student Name: </div>
+                                        <div class="detailsValue">{{formData.name}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Father’s Name:</div>
+                                        <div class="detailsValue">{{formData.fathersName}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Aadhar Number: </div>
+                                        <div class="detailsValue">{{formData.aadharNumber}}</div>
+                                    </div>
+                                </div>
+                                <div class="displaySection">
+                                    <h1 class="displaySectionHeader">Contact Details</h1>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Mobile Number: </div>
+                                        <div class="detailsValue">{{formData.mobileNumber}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Whatsapp Number:</div>
+                                        <div class="detailsValue">{{formData.whatsappNumber}}</div>
+                                    </div>
+                                </div>
+                                <div class="displaySection">
+                                    <h1 class="displaySectionHeader">Permanent Address</h1>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Village/Ward No:</div>
+                                        <div class="detailsValue">{{formData.address.village}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Post/Colony:</div>
+                                        <div class="detailsValue">{{formData.address.post}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Tehsil/City:</div>
+                                        <div class="detailsValue">{{formData.address.city}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">District:</div>
+                                        <div class="detailsValue">{{formData.address.district}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">State:</div>
+                                        <div class="detailsValue">{{formData.address.state}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Pin Code:</div>
+                                        <div class="detailsValue">{{formData.address.pincode}}</div>
+                                    </div>
+                                </div>
+                                <div class="displaySection">
+                                    <h1 class="displaySectionHeader">School Details</h1>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">School Name:</div>
+                                        <div class="detailsValue">{{formData.school.name}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Tehsil/City:</div>
+                                        <div class="detailsValue">{{formData.school.city}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">District:</div>
+                                        <div class="detailsValue">{{formData.school.district}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Director/Principal Name:</div>
+                                        <div class="detailsValue">{{formData.school.principal}}</div>
+                                    </div>
+                                    <div class="displaySectionDetails">
+                                        <div class="detailsKey">Mobile No:</div>
+                                        <div class="detailsValue">{{formData.school.mobile}}</div>
+                                    </div>
+                                </div>
+                                <div class="displaySection">
+                                    <h1 class="displaySectionHeader">Upload Details</h1>
+                                    <div style="flex-direction: column;
+                                    align-items: self-start;" class="displaySectionDetails">
+                                        <div class="profileHeader detailsKey">Student Profile Pic</div>
+                                        <div class="detailsValue">
+                                            <img style="width: 250px; height: auto;":src="formData.personalImg" alt="Profile Image"></div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="row mb-3 mt-3" :style="[activeStep==5?{'display': 'block'}:{'display': 'none'}]">
+                                
+                                <div class="successMsgClass">
+                                    <p>Dear {{userResponse.firstName}},</p>
+                                    <span><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                        You have successfully applied for e-CAST. </span><br>
+                                    <span><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                        You can attempt a mock test at our test portal <a href="https://clcecast.in">https://clcecast.in</a> 
+                                        OR Visit our e-CAST test portal <a href="https://clcecast.in">https://clcecast.in</a> 
+                                    </span><br>
+                                    <span><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                        Your Username is 
+                                        <span style="color: black; font-weight: bold;">{{userResponse.srn}}</span>
+                                         and Password is 
+                                         <span style="color: black; font-weight: bold;">{{formData.mobileNumber}}</span>
+                                    </span><br>
+                                    <span><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                        Exam will be held on 30 Jan. 2022 at 10 am. Duration of test will be 120 min.</span><br>
+                                    <span><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                        For any query contact @ 9521236555.</span><br>
+                                    <p>Thanks.</p>
+                         
+                                </div>
+                            </div>  
+
+                        </div>
+                        
+                        <div v-if="formErrors.length>0" class="errorDisplay">
+                            <div class="singleErrorMessage" v-for="err in formErrors">
+                                <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                {{err}}
+                            </div>
+                        </div>
+                        <div class="row formBtnSection">
+                            <button class="formBtn" :style="[activeStep==2||activeStep==3 ? {'display': 'inline-block'}: {'display': 'none'}]" @click="backStep()">Back</button>
+
+                            <button v-if="activeStep==1" :disabled="!formNextBtn" class="formBtn" @click="nextStep1()">Next</button>
+                            <button v-if="activeStep==2" :disabled="!formNextBtn" class="formBtn" @click="nextStep2()">Next</button>
+                            <button v-if="activeStep==3" :disabled="!formNextBtn" class="formBtn" @click="nextStep3()">Next</button>
+                            <div v-if=activeStep==4>
+                                <div >
+                                    <div class="submitFormBtns">
+                                        <span class="text-danger" style="font-size: 12px;">{{  errors.first('OTP')}}</span>
+                                        <input class="form-control inputOtpField" :style="[verify.validateBtn? {'display':'inline-block'}:{'display':'none'}]" name="OTP" type="number" :placeholder="'Otp sent to ' + formData.mobileNumber" v-model="mobileOtp" v-validate="'required'">
+                                        <button :style="[verify.sentOtpBtn? {'display':'inline-block'}:{'display':'none'}]" class="sentOtpClass" v-if="!errors.first('Mobile Number')&&formData.mobileNumber" type="submit" @click="requestOtp()" >Submit</button>
+                                        <button :disabled="verify.requestOtpTimer>0" :style="[verify.resendOtpBtn? {'display':'inline-block'}:{'display':'none'}]" class="resendOtpClass" v-if="!errors.first('Mobile Number')&&formData.mobileNumber" type="submit" @click="requestOtp()">Resend Otp <span v-if="verify.requestOtpTimer>0" class="spanTimer">{{verify.requestOtpTimer}}</span></button>
+                                        <button :style="[verify.validateBtn? {'display':'inline-block'}:{'display':'none'}]" class="submitOtpClass" v-if="!errors.first('Mobile Number')&&formData.mobileNumber" type="submit" @click="verifyOtp()">Submit</button> 
+                                        <button v-if="!verify.validateBtn" class="submitOtpClass" @click="backStep()">Back</button>
+                                        <button :style="[verify.requestOtpTimer>0?{'display':'none'}:{'display':'inline-block'}]" v-if="verify.validateBtn" class="submitOtpClass" @click="changeMobile()">Back</button>
+
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                        
+
+    
+    
+                    </div>
+    
+    
+    
+                    
+                    
+      
+                    <!-- <p v-if="errors.length">
+                      <b>Please correct the following error(s):</b>
+                      <ul>
+                        <li v-for="error in errors">{{ error }}</li>
+                      </ul>
+                    </p> -->
+                    
+                    <!-- <p>
+                      <label for="name">Name<label>
+                      <input type="text" name="name" id="name" v-model="name">
+                    </p>
+                  
+                    <p>
+                      <label for="age">Age<label>
+                      <input type="number" name="age" id="age" v-model="age" min="0">
+                    </p>
+                  
+                    <p>
+                      <label for="movie">Favorite Movie<label>
+                      <select name="movie" id="movie" v-model="movie">
+                        <option>Star Wars</option>
+                        <option>Vanilla Sky</option>
+                        <option>Atomic Blonde</option>
+                      </select>
+                    </p>
+                  
+                    <p>
+                      <input type="submit" value="Submit">  
+                    </p> -->
+                  
+                  </form>
+
+            </div>
+         
+			<!--************************************
+					Header Start
+			*************************************-->
+
+		</div>
+		<!--************************************
+				Wrapper End
+		*************************************-->
+	</div>
+	<script src="https://unpkg.com/vee-validate@2.0.0/dist/vee-validate.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script>
+    Vue.use(VeeValidate)
+    Vue.filter('formatDate', function(value) {
+        if (value) {
+            return moment(String(value)).format('DD/MM/YYYY')
+        }
+    });
+
+
+    var app = new Vue({
+        el: '#app',
+        data: {
+            formData : {
+                class:'none',
+                name: '',
+                fathersName: '',
+                aadharNumber: '',
+                personalNumber: '',
+                mobileNumber: '',
+                whatsappNumber: '',
+                address : {
+                    village : '',
+                    post : '',
+                    city: '',
+                    district: '',
+                    state: 'none',
+                    pincode: ''
+
+                },
+                school: {
+                    name: '',
+                    city: '',
+                    district: '',
+                    principal: '',
+                    mobile: '',
+                },
+                personalImg:'',
+                
+            },
+            formErrors: [],
+            activeStep:1,
+            formNextBtn: true,
+            error:{
+                status:false,
+                isClass:'',
+                msg:'',
+                process:false
+            },
+            otpId: '',
+            mobileOtp: '',
+            verify :{
+                sentOtpBtn: true,
+                resendOtpBtn : false,
+                activeResendOtpBtn : false,
+                requestOtpTimer : 60,
+                validateBtn : false,
+            },
+            userResponse: [],
+            uploading: false,
+
+
+
+
+        },
+        methods:{
+            registerForm:function(e) {
+            if(this.name && this.age) return true;
+            e.preventDefault();
+            },
+            nextStep1: function(){
+                let goToNextStep = false;
+                // this.$validator.validateAll();
+                if(this.activeStep==1){
+                    if(this.formData.class=='none'){
+                        this.formErrors.push('Class is Required.')
+                    }
+                    if(!this.formData.name){
+                        this.formErrors.push('Name is Required.')
+                    }
+                    if(!this.formData.fathersName){
+                        this.formErrors.push("Father's Name is Required.")
+                    }
+                    if(!this.formData.aadharNumber){
+                        this.formErrors.push("Aadhar Number is Required.")
+                    }
+                    if(!this.errors.first('Student Name')&& !this.errors.first("Father's Name")&& !this.errors.first('Aadhar Number')){
+                        goToNextStep = true
+                    }
+                            
+                            
+                    if(this.formData.class!='none'&&this.formData.name&&this.formData.fathersName&&this.formData.aadharNumber&&goToNextStep){
+                            this.formErrors=[];
+                            this.activeStep = this.activeStep+1;
+                            this.formNextBtn= true;
+                    }else{
+                        this.formNextBtn= false;
+                        setTimeout(()=>{
+                            this.formErrors= [];
+                            this.formNextBtn= true;
+                        },2000)
+                    }
+                    
+                }
+            },
+            nextStep2: function(){
+                let goToNextStep = false;
+                if(this.activeStep==2){
+                    if(!this.formData.mobileNumber){
+                        this.formErrors.push('Mobile Number is Required.')
+                    }
+
+                    if(!this.errors.first('Mobile Number')&& !this.errors.first('Whatsapp Number') &&!this.errors.first('OTP')){
+                        goToNextStep = true;
+                    }
+                    if(this.formData.mobileNumber&&goToNextStep){
+                        this.activeStep = this.activeStep+1;
+                        this.formErrors=[];
+                        this.formNextBtn= true;
+                    }else{
+                        setTimeout(()=>{
+                            this.formErrors= [];
+                            this.formNextBtn= true;
+
+                        },2000)
+                    }
+                    
+                }
+            },
+            nextStep3: function(){
+                let goToNextStep = false;
+                if(this.activeStep==3){
+                    if(!this.formData.address.village){
+                        this.formErrors.push('Address Village is Required.')
+                    }
+                    if(!this.formData.address.post){
+                        this.formErrors.push('Address Post is Required.')
+                    }
+                    if(!this.formData.address.city){
+                        this.formErrors.push('Address Tehsil/City is Required.')
+                    }
+                    if(!this.formData.address.district){
+                        this.formErrors.push('Address District is Required.')
+                    }
+                    if(this.formData.address.state=='none'){
+                        this.formErrors.push('State is Required.')
+                    }
+                    if(!this.formData.address.pincode){
+                        this.formErrors.push('Address Pincode is Required.')
+                    }
+                    if(!this.formData.school.name){
+                        this.formErrors.push("Schools name is Required.")
+                    }
+                    if(!this.formData.school.city){
+                        this.formErrors.push("Schools Tehsil/City is Required.")
+                    }
+                    if(!this.formData.school.district){
+                        this.formErrors.push('School District is Required.')
+                    }
+                    if(!this.formData.formData){
+                        this.formErrors.push('Profile Pic is Required.')
+                    }
+                    // if(!this.formData.school.principal){
+                    //     this.formErrors.push("School's Director/Principal Name is Required.")
+                    // }
+                    // if(!this.formData.school.mobile){
+                    //     this.formErrors.push("School's mobile number is Required.")
+                    // }
+                    if(!this.errors.first('Address Village')&&!this.errors.first('Address Post//Colony')&&!this.errors.first('Address Tehsil/City')&&!this.errors.first('Address District')&&!this.errors.first('Address State')&&!this.errors.first('Address Pin Code')&&!this.errors.first('School Name')&&!this.errors.first('School Tehsil/City')&&!this.errors.first('School District')&&!this.errors.first('School Mobile Number')&&!this.errors.first('Profile Image')){
+                        goToNextStep = true;
+                    }
+                    if(this.formData.address.village&&this.formData.address.post&&this.formData.address.city&&this.formData.address.district&&this.formData.address.state!='none'&&this.formData.address.pincode&&this.formData.school.name&&this.formData.school.city&&this.formData.school.district&&this.formData.personalImg&&goToNextStep){
+                        this.activeStep = this.activeStep+1;
+                        this.formErrors=[];
+                        this.formNextBtn= true;
+                    }else{
+                        setTimeout(()=>{
+                            this.formErrors= [];
+                            this.formNextBtn= true;
+                        },2000)
+                    }   
+                }
+            },
+            setError: function(status, isClass, msg, process, time){
+                this.error={
+                    status:status,
+                    isClass:isClass,
+                    msg:msg,
+                    process:process,
+                };
+                var self=this;
+                
+                setTimeout(function() {
+                    self.resetError();
+                }, time);
+                
+            },
+            resetError: function(){
+                this.error={
+                    status:false,
+                    isClass:'',
+                    msg:'',
+                    process:false
+                }
+            },
+            requestOtp: function () {
+                this.verify.requestOtpTimer= 60;
+                this.verify.sentOtpBtn = false;
+                this.verify.resendOtpBtn =true;
+                this.verify.validateBtn = true;
+                if(this.formData.mobileNumber==''){
+                    this.formErrors.push('Mobile Number is Required.')
+                    return;
+                }
+                // if(this.user.password!=this.user.cPassword){
+                //     this.setError(true, 'alert-danger', 'Password and confirm password is not same', true, 2000);
+                //     return;
+                // }
+                // else{
+                    axios.post('/api/public/user/signup-with-otp', {
+                        mobile: this.formData.mobileNumber
+                    })
+                    .then(response=>{
+                        if (response.data) {
+                            this.otpId= response.data.id;
+                        }
+                    })
+                    .catch(err => {
+                        this.formErrors.push('Mobile no. is already Registered!! Please change mobile number. ');
+                        this.verify.sentOtpBtn=true;
+                        this.verify.resendOtpBtn=false;
+                        this.verify.activeResendOtpBtn=false;
+                        this.verify.requestOtpTimer=60;
+                        this.verify.validateBtn=false;   
+                     })
+            },
+            verifyOtp: function(){
+                if(!this.mobileOtp){
+                    this.formErrors.push('Please enter the OTP')
+                    setTimeout(()=>{
+                        this.formErrors= [];
+                    },2000)
+
+
+                }else{
+                    this.registerStudent();
+
+                }
+
+                // axios.post('/api/public/user/verify-otp', {
+                //     otp: this.mobileOtp,
+                //     id: this.otpId})
+                // .then(response=>{
+                //     if(response.data){
+                //         this.registerStudent();
+                //     }
+                // })
+                // .catch(err => {
+                //     this.formErrors.push('Invalid or expired OTP !!')
+                //     setTimeout(()=>{
+                //         this.formErrors= [];
+                //     },2000)
+                //     return;                    
+                // })
+            },
+            cancelImage: function(){
+                this.formData.personalImg = '';
+                this.uploading = false;
+
+
+            },
+
+            uploadStdPersonalImage :function(e) {
+                if(!this.$refs.personalImg.files){
+                    this.formErrors("Profile Pic is required")
+                    setTimeout(()=>{
+                        this.formErrors=[];
+                    },2000)  
+                }
+                this.personalImgObj = this.$refs.personalImg.files[0];
+                if(this.personalImgObj.size>100000000){
+                    alert("The size of image is not more than 100MB.");
+                    this.personalImgObj='';
+                    this.$refs.personalImg.files=[];
+                    return;
+                }
+                if (this.personalImgObj) {
+                    this.uploading = true;
+                    let formData1 = new FormData();
+                    formData1.append('ekFile', this.personalImgObj);
+                    let self = this;
+                    axios.post('/api/public/file/upload',
+                        formData1
+                    ).then(function (res) {
+                        console.log(res);
+                        self.formData.personalImg = res.data.url;
+                        console.log(self.formData.personalImg);
+                        this.uploading = false;
+                    })
+                    .catch(function () {
+                        console.log('FAILURE!!');
+                        this.uploading = false;
+                    });
+                }
+            },
+            registerStudent: function () {
+                let name=[];
+
+                let firstname = '';
+                let lastName = ' ';
+                name= this.formData.name.split(" ");
+                firstname=name[0];
+                if(name[1] && name[1]!=''){
+                    lastName=name[1];
+                }
+                if(name[2] && name[2]!=''){
+                    lastName = lastName +" "+name[2];
+                }  
+                let stdData = {
+                    createLogin: true,
+                    email: 'clcexamregistration@gmail.com',
+                    firstName: firstname,
+                    lastName: lastName,
+                    father: {name: this.formData.fathersName, mobile: this.formData.whatsappNumber },
+                    mobile: this.formData.mobileNumber,
+                    personalImg: this.formData.personalImg,
+                    idCard: this.formData.aadharNumber,
+                    store: '61e2628acf0b1c43d43f605d',
+                    unBase:'srn',
+                    // address:{
+                    //     address:'',
+                    //     landmark:'',
+                    //     city:'',
+                    //     state:'',
+                    //     postalCode:'',
+                    //     country:'India',
+                    // },
+                    address: {address: this.formData.address.village+' '+ this.formData.address.district, landmark: this.formData.address.post, city: this.formData.address.city, state: this.formData.address.state, postalCode: this.formData.address.pincode, country: "India"},
+                    customParams: this.formData.school,
+                };
+                axios.post('/api/public3/user/register-student-with-otp', {
+                    student:stdData,
+                    password: this.formData.mobileNumber,
+                    id:this.otpId,
+                    otp:this.mobileOtp,
+                })
+                .then(response => {
+                    if (response.statusText == "OK" || response.status==200) {
+                        this.userResponse = response.data.user;
+                        console.log(this.userResponse)
+                        this.mobileOtp='';
+                        this.activeStep=5 
+                    }
+                })
+                .catch(err => {
+                    this.formErrors.push('This mobile number is already registered with us. Please login or use other mobile number.');
+                    setTimeout(()=>{
+                        this.formErrors= [];
+                    },2000)
+                    return;  
+                })
+            },
+            
+            changeMobile: function(){
+                this.mobileOtp = '';
+                this.activeStep=3;
+                this.verify.sentOtpBtn= true;
+                this.verify.resendOtpBtn = false;
+                this.verify.activeResendOtpBtn =false;
+                this.verify.validateBtn = false;
+            },
+
+            backStep: function(){
+                if(this.activeStep>=2&&this.activeStep<=4){
+                    this.activeStep = this.activeStep-1;
+                    this.formErrors = [];
+                }
+            },
+            myTimeout: function(){
+                debugger
+                setTimeout(()=>{
+                    this.verify.activeResendOtpBtn = true;
+                    },this.verify.requestOtpTimer*1000);
+            },
+            refreshIntervalId: function(){
+                debugger
+                setInterval(()=> {
+                    this.verify.requestOtpTimer--;}, 1000);
+            },
+
+            runtimer: function(value){  
+                if(value==true){
+                    var x = setTimeout(()=>{
+                    this.verify.activeResendOtpBtn = true;
+                    },this.verify.requestOtpTimer*1000);
+                    var y = setInterval(()=> {
+                    this.verify.requestOtpTimer--;}, 1000);
+                }else{
+                    debugger
+                    clearTimeout(x);
+                    clearInterval(y);
+
+                }
+
+                
+
+            }
+        },
+        watch: {
+            'verify.resendOtpBtn': function (newVal, oldVal){
+                if(newVal==true&&oldVal==false){
+                    this.runtimer(true);
+                }else{
+                    this.runtimer(false);
+                }
+            },
+        },
+        created(){
+        },
+    })
+</script>
+</body>
+
+
+</html>
